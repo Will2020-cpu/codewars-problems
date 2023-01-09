@@ -10,7 +10,7 @@ fn digital_root(n: i64) -> i64 {
     }
 
     if sum.to_string().len() != 1{
-        sum = digital_root(sum as i64);
+        sum = digital_root(sum);
     }
 
     return sum;
